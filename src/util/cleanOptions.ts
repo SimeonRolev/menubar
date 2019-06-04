@@ -1,3 +1,7 @@
+/**
+ * @hidden
+ */
+
 import { app } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
@@ -20,7 +24,6 @@ const DEPRECATED = {
  * Take as input some options, and return a sanitized version of it.
  *
  * @param opts - The options to clean.
- * @ignore
  */
 export function cleanOptions (opts?: Partial<Options> | string) {
   let options: Partial<Options>;
