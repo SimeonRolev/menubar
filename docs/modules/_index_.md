@@ -18,7 +18,7 @@
 
 ▸ **menubar**(options?: *`Partial`<[Options](../interfaces/_types_.options.md)> \| `string`*): [Menubar](../classes/_menubar_.menubar.md)
 
-*Defined in [index.ts:8](https://github.com/maxogden/menubar/blob/270eb39/src/index.ts#L8)*
+*Defined in [index.ts:8](https://github.com/maxogden/menubar/blob/34b0f8f/src/index.ts#L8)*
 
 **Parameters:**
 

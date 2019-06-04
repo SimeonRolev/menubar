@@ -56,7 +56,7 @@ The main Menubar class. Menubar is an EventEmitter.
 
 ⊕ **new Menubar**(app: *`App`*, options?: *`Partial`<[Options](../interfaces/_types_.options.md)> \| `string`*): [Menubar](_menubar_.menubar.md)
 
-*Defined in Menubar.ts:36*
+*Defined in [Menubar.ts:36](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L36)*
 
 **Parameters:**
 
@@ -77,7 +77,7 @@ ___
 
 **● app**: *`App`*
 
-*Defined in Menubar.ts:18*
+*Defined in [Menubar.ts:18](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L18)*
 
 The Electron app instance.
 
@@ -90,7 +90,7 @@ ___
 
 **● browserWindow**: *`BrowserWindow`*
 
-*Defined in Menubar.ts:23*
+*Defined in [Menubar.ts:23](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L23)*
 
 The electron BrowserWindow instance.
 
@@ -103,7 +103,7 @@ ___
 
 **● positioner**: *`any`*
 
-*Defined in Menubar.ts:30*
+*Defined in [Menubar.ts:30](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L30)*
 
 The electron-positioner instance.
 
@@ -116,7 +116,7 @@ ___
 
 **● tray**: *`Tray`*
 
-*Defined in Menubar.ts:36*
+*Defined in [Menubar.ts:36](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L36)*
 
 The Electron Tray instance.
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **getOption**(key: *`keyof Options`*): `undefined` \| `string` \| `number` \| `false` \| `true` \| `BrowserWindowConstructorOptions` \| `NativeImage` \| `Tray`
 
-*Defined in Menubar.ts:60*
+*Defined in [Menubar.ts:60](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L60)*
 
 Retrieve a menubar option.
 
@@ -236,7 +236,7 @@ ___
 
 ▸ **hideWindow**(): `void`
 
-*Defined in Menubar.ts:67*
+*Defined in [Menubar.ts:67](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L67)*
 
 Hide the menubar window.
 
@@ -486,7 +486,7 @@ ___
 
 ▸ **setOption**(key: *`keyof Options`*, value: *`any`*): `void`
 
-*Defined in Menubar.ts:86*
+*Defined in [Menubar.ts:86](https://github.com/maxogden/menubar/blob/34b0f8f/src/Menubar.ts#L86)*
 
 Change an option after menubar is created.
 

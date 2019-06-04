@@ -18,7 +18,7 @@
 
 ▸ **cleanOptions**(opts?: *`Partial`<[Options](../interfaces/_types_.options.md)> \| `string`*): [Options](../interfaces/_types_.options.md)
 
-*Defined in [util/cleanOptions.ts:28](https://github.com/maxogden/menubar/blob/270eb39/src/util/cleanOptions.ts#L28)*
+*Defined in [util/cleanOptions.ts:30](https://github.com/maxogden/menubar/blob/34b0f8f/src/util/cleanOptions.ts#L30)*
 
 Take as input some options, and return a sanitized version of it.
 

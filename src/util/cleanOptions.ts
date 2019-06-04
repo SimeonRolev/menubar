@@ -1,5 +1,7 @@
 /**
  * @hidden
+ * @ignore
+ * @internal
  */
 
 import { app } from 'electron';
