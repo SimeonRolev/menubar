@@ -2,7 +2,6 @@ import { Tray, BrowserWindow } from 'electron';
 import { EventEmitter } from 'events';
 import * as fs from 'fs';
 import * as path from 'path';
-import * as Positioner from 'electron-positioner';
 
 import { cleanOptions } from './util/cleanOptions';
 import { getWindowPosition } from './util/getWindowPosition';
@@ -17,6 +16,7 @@ export class Menubar extends EventEmitter {
   private _cachedBounds?: Electron.Rectangle; // _cachedBounds are needed for double-clicked event
   private _options: Options;
   private _positioner: any; // TODO https://github.com/jenslind/electron-positioner/issues/15
+  private positionerClass: any; // TODO https://github.com/jenslind/electron-positioner/issues/15
   private _supportsTrayHighlightState = false;
   private _tray?: Tray;
 
@@ -282,7 +282,7 @@ export class Menubar extends EventEmitter {
           ...this._options
         });
 
-    this._positioner = new Positioner(this._browserWindow);
+    this._positioner = new this.positionerClass(this._browserWindow);
 
     this._browserWindow.on('blur', () => {
       if (!this._browserWindow) {
