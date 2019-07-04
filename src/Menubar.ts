@@ -16,7 +16,6 @@ export class Menubar extends EventEmitter {
   private _cachedBounds?: Electron.Rectangle; // _cachedBounds are needed for double-clicked event
   private _options: Options;
   private _positioner: any; // TODO https://github.com/jenslind/electron-positioner/issues/15
-  private positionerClass: any; // TODO https://github.com/jenslind/electron-positioner/issues/15
   private _supportsTrayHighlightState = false;
   private _tray?: Tray;
 
